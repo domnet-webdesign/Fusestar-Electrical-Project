@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar start*/
+nav {
+    width: 100%;
+}
+
+nav .navbar-brand {
+    margin-left: 200px;
+}
+
+.navbar-collapse {
+    margin-right: 200px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    padding: 25px 25px;
+    font-size: 1.2rem;
+}
+
+.collapse .navbar-nav .nav-item a {
+    color: #003674;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: #f26b31;
+}
+
+.collapse .navbar-nav .active .nav-link {
+    color: #003674;
+}
+/* Navigation Bar ends*/
+
+/* Dropdown menu starts*/
+.collapse .navbar-nav .dropdown .dropdown-menu {
+    box-shadow: 0px 0px 6px 0px gray;
+    border: none;
+
+}
+
+.collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    padding: 15px 25px;
+    
+}
+
+.collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    background: none;
+    
+}
+/* Dropdown menu ends */
+
+/* Inner text content starts */
+
+.carousel-inner .carousel-item .carousel-caption {
+    left: 10%;
+    text-align: left;
+    max-width: 70%;
+    top: 20%;
+    font-size: 1.5rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 4.5rem;
+    color: #f26b31;
+    margin-bottom: 0;
+}
+
+.carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #003674;
+    margin-top: -10px;
+}
+
+.carousel-inner .carousel-item .carousel-caption .underline {
+    background: #f26b31;
+    height: 10px;
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption p {
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption .btn {
+    background: #f26b31;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    color: #fff;
+}
+
+/* Inner text content ends */
+
+/* services banner starts */
+
+.services {
+    color: #fff;
+    padding: .8rem;
+    margin-top: -1rem;
+}
+
+.services .fas {
+    padding: 20px;
+}
+
+.services h4 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.services p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.services .services1 {
+    background: #003674;
+}
+
+.services .services2 {
+    background: #f26b31;
+}
+/* services banner ends */
+
+/* About us start */
+#about-us {
+    margin-top: -1rem;
+    width: 100%;
+    background: url("./images/dot.jpg");
+}
+
+#our-blog {
+    margin-top: -1rem;
+    width: 100%;
+}
+
+#about-us .about-text,
+#our-services .our-services-text,
+#our-pricing .our-pricing-text,
+#our-blog .our-blog-text {
+    padding: 5rem 0 4rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #003674;
+}
+
+#about-us p span,
+#our-services p span,
+#our-pricing p span,
+#our-blog p span {
+    color: #f26b31;
+}
+
+/* .underline-blue::before{
+    content: "\A";
+    height: 3px;
+    width: 100px;
+    background: #f26b31;
+    margin: auto 45% ;
+    position: relative;
+    top: -1rem;
+    display: inline-block;
+
+}
+
+.underline-blue::after {
+    content: "\A";
+    height: 3px;
+    width: 100px;
+    background: #003674;
+    margin: auto -46%;
+    position: relative;
+    top: -1rem;
+    display: inline-block;
+} */
+
+.container .jumbotron{
+    background: linear-gradient(rgba(0,54,116,0.8), rgba(0,54,116,0.9)), url("images/back-56.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+
+.jumbotron .display-4{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.jumbotron .lead{
+    color: #fff;
+    padding: 20px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.jumbotron .btn{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: aliceblue;
+    background: #f26b31;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1rem;
+}
+/* About Us ends */
+
+/* About content starts */
+.about-content {
+    margin: 4rem 0 0;
+}
+
+.services3 {
+    float: left;
+    width: 100%;
+	margin: 40px 0 0px 0;
+    text-align: center;
+    /* box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); */
+}
+.services3-icons {
+	display:inline-block;
+	text-align:center;
+    width:100%;
+    padding-top: 2rem;
+}
+.services3-icons i {
+	width:65px;
+	height:65px;
+	background:#003674;
+	color:#fff;
+	display:inline-block;
+	line-height:65px;
+	margin:0 0 20px;
+	border-radius:50%;
+	font-size:35px;
+}
+.services3-content h3 {
+	font-size: 30px;
+	text-align:center;
+	color:#003674;
+	margin:0 0 6px;
+	padding:0;
+}
+.services3-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    padding: .8rem;
+}
+
+/* About content ends */
+
+/* hours of services start */
+
+#hours {
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('images/hours.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+}
+
+.hour-post {
+    position: relative;
+    top: 9rem;
+}
+
+#hours .hours-services{
+    text-align: center;
+}
+
+#hours .hours-services .fas {
+    color: #f26b31;
+    padding: 3rem 0 2rem 0;
+}
+
+#hours .hours-services h4 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    
+}
+
+#hours .hours-services p {
+    font-size: 1.5rem;
+    background: #000;
+    padding: 1rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+/* hours of services ends */
+
+/* our services start */
+
+#our-services {
+    width: 100%;
+    background: url("./images/dot.jpg");
+}
+
+.our-services-details {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.services32{
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    background: #fff;
+    margin-top: 2rem;
+}
+
+.our-services-content .services32 .fas {
+    background: #003674;
+    color: #ddd;
+    margin-top: 1rem;
+    height: 100px;
+    width: 100px;
+    line-height: 2;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 33%;
+}
+
+.services32 .our-services-content h4{
+    color: #f26b31;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.services32 .our-services-content p{
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 500; 
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+.services32 .our-services-content .btn {
+    margin: 0 auto 2rem 0;
+    color: #fff;
+    background: #003674;
+    font-size: 1.5rem;
+    padding: .9rem;
+    font-weight: 600;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.services32 .our-services-content .btn:hover {
+    background: #f26b31;
+    transition: .6s ease-in;
+}
+/* our services start */
+
+/* OUR TEAM start */
+#our-team{
+    margin: 1rem 100px 1rem 100px;
+}
+
+#our-team .team-text {
+    padding: 40px 0;
+    font-size: 2.4em;
+    font-weight: 600;
+    color: #003674;
+}
+
+#our-team p span {
+    color: #f26b31;
+}
+
+.fn1 {
+    margin-top: 2rem;
+}
+
+.our-team-content .fn1 img {
+    width: 100%;
+}
+
+.our-team-content .name {
+    background: #003674;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.our-team-content .name h5 {
+    font-size: 1.5rem;
+}
+
+/* social icons start */
+.social-icons{
+    position: absolute;
+    top: 500px;
+    left: 35px;
+    z-index: 45;
+}
+
+.social-icons .fab{
+    display: flex;
+    border: 1px solid #262626;
+    width: 50px;
+    height: 50px;
+    color: #003674;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 20;
+    border-radius: 50%;
+    margin: 0 0 6px 0;
+    font-size: 2.3rem;
+    border: 1px solid #f26b31;
+}
+
+.social-icons .fab:hover{
+    text-decoration: none;
+}
+
+/*  */
+
+.our-team-content .fn1 {
+    cursor: pointer;
+}
+
+.our-team-content .fn1:hover .social-icons1 .fab {
+    cursor: pointer;
+    display: block;
+}
+
+.social-icons1{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    z-index: 45;
+    cursor: pointer;
+}
+
+.social-icons1 .fab{
+    display: flex;
+    border: 1px solid #262626;
+    width: 50px;
+    height: 50px;
+    color: #003674;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 20;
+    border-radius: 50%;
+    margin: 0 0 6px 0;
+    font-size: 2.3rem;
+    border: 1px solid #f26b31;
+    display: none;
+    
+    
+}
+
+#our-team:hover{
+    text-decoration: none;
+    display: block;
+}
+
+/* social icons ends */
+
+/* Our Team ends*/
+
+/* gallery starts */
+
+#our-gallery {
+    margin-top: 8rem;
+}
+
+.our-gallery-content .fn2 img{
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    margin: .4rem;
+    width: 100%;
+}
+
+/* gallery ends */
+
+/* our pricing starts */
+
+.fn7 {
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    margin-top: 30px;
+}
+
+.fn9 {
+    background: #f26b31;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    color: #fff;
+    margin-top: 30px;
+}
+
+.pricing-content h5 {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.pricing-content h6 {
+    padding: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.pricing-content .fn8 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing-features {
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 15rem;
+    margin: 0 auto;
+    color: #f26b31;
+}
+
+.pricing-features .btn {
+    padding: 1rem;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background: #f26b31;
+    border: none;
+}
+
+.fn9 .btn {
+    padding: 1rem;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background: #fff;
+    border: none;
+    color: #f26b31;
+}
+
+.pricing-features .btn:hover,
+.fn9 .btn:hover {
+    background: #003674;
+    transition: .6s ease-in;
+} 
+
+/* our pricing ends */
+
+/* blog start */
+
+.fn11 .post-date {
+    width: 80px;
+    height: 80px;
+    background: #f26b31;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 2;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    top: -13.65rem;
+    left: 16rem;
+
+}
+
+.fn11 .post-date p {
+    margin-bottom: 0;
+}
+
+.fn11 .post-date h6 {
+    margin-top: .1rem;
+}
+
+.fn11 {
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    color: #262626;
+    margin-top: 30px;
+    width: 350px;
+    display: inline-block;
+    
+}
+
+.blog-features {
+    padding: 1.5rem;
+}
+
+.blog-features h4 {
+    margin-top: -4rem;
+    font-size: 1.5rem;
+}
+
+.blog-features .post-comment {
+    font-weight: 600;
+}
+
+.blog-features p {
+    font-size: 1.1rem;
+    padding-top: .7rem;
+}
+
+.blog-features .btn {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background: #f26b31;
+    border: none;
+    color: #fff;
+}
+
+.blog-features .btn:hover {
+    background: #003674;
+    color: #fff;
+    transition: .6s;  
+}
+
+.blog-image .img-responsive {
+    width: 350px;
+}
+
+.blog-image .img-responsive:hover {
+    transform: scaleY(1.09)
+}
+
+/* blog post ends */
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 757px) {
+
+    /* media query for hour of work start */
+    #hours {
+        /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('images/hours.jpg'); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+        background-attachment: fixed;
+    }
+
+    #hours img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    
+    #hours .hours-services .fas {
+        color: #f26b31;
+        padding: 2rem 0 1.2rem 0;
+    }
+    
+    #hours .hours-services h4 {
+        font-size: 2rem;
+        padding-bottom: 0rem;
+        
+    }
+    
+    #hours .hours-services p {
+        font-size: 1.5rem;
+        background: #000;
+        padding: 1rem;
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    #hours .hours-services{
+        text-align: center;
+        margin-top: 0rem;
+    }
+
+    /*  */
+
+    /* our services media query starts */
+    .our-services-details {
+        padding: 0 2rem 2rem 2rem;
+    }
+    
+    .services32{
+        box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+        background: #fff;
+        margin: 20px;
+        max-width: 30%;
+    }
+    /* our services media query ends */
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #hours img {
+        width: 100%;
+        height: 130vh;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8));
+    }
+
+    #hours .hours-services{
+        text-align: center;
+        margin-top: 0rem;
+    }
+
+    #hours .hours-services .fas {
+        color: #f26b31;
+        padding: 1.8rem 0 1rem 0;
+    }
+    
+    #hours .hours-services h4 {
+        font-size: 2rem;
+        padding-bottom: 0rem;
+        
+    }
+    
+    #hours .hours-services p {
+        font-size: 1.1rem;
+        background: #000;
+        padding: 1rem;
+        width: 20rem;
+        margin: 0 auto;
+    }
+    
+}
