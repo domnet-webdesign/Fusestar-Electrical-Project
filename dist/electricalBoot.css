@@ -688,15 +688,11 @@ nav ul li{
 }
 /* contact page form ends */
 
-
 /* Media Queries */
-
 @media (max-width: 1775px) {
     .carousel-inner .carousel-item .carousel-caption p {
         width: 67%;
     }
-
-    
 }
 
 @media (max-width: 1532px) {
@@ -710,7 +706,6 @@ nav ul li{
         font-weight: bolder;
     }
     /* Navigation bar ends*/
-
     .carousel-inner .carousel-item .carousel-caption p {
         width: 60%;
     }
@@ -726,7 +721,6 @@ nav ul li{
         margin-right: 150px;
     }
     /* Navigation bar ends*/
-
 }
 
 @media(max-width: 1157px) {
@@ -739,41 +733,72 @@ nav ul li{
         margin-right: 60px;
     }
     /* Navigation bar ends*/
-
     #hours {   
         height: 88vh;
- 
     }
-
     /* carousel BANNER Start*/
     .carousel-inner .carousel-item .carousel-caption h3 {
         font-size: 3.5rem;
     }
-    
     .carousel-inner .carousel-item .carousel-caption h2 {
         font-size: 4rem;
     }
     /* carousel BANNER ends*/
-
     .carousel-inner .carousel-item .carousel-caption {
         left: 15%;
     }
-    
 }
 
-
-
-@media screen and (min-width: 757px) {
-    
-
-    
+@media screen and (max-width: 770px) {
+    /* carousel background */
+    .carousel-inner .carousel-item img {
+        visibility: hidden;
+    }
 }
-
 
 @media screen and (max-width: 768px) {
-    
+    /* carousel background */
+    .carousel-inner .carousel-item:after {
+        content: "";
+        visibility: visible;
+        background-image: url('./images/Capture.JPG');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 3rem;
+        color: #f26b31;
+        margin: -2.5rem 0 .9rem 0;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #003674;
+    }
+    .carousel-inner .carousel-item .carousel-caption .underline {
+        background: #f26b31;
+        height: 6px;
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+    .carousel-inner .carousel-item .carousel-caption p {
+        color: #262626;
+        margin-bottom: 2rem;
+        font-size: 1em;
+        width: 80%;
+        font-weight: 600;
+    }
+    .carousel-inner .carousel-item .carousel-caption .btn {
+        padding: 1rem 1.2rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    /* Inner text content ends */
+    .social-icons {
+        display: none;
+    }
     .fn40 {
-        
         margin-top: 1rem;
         margin-bottom: 1rem;
     }  
