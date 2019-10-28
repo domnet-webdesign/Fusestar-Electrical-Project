@@ -8,6 +8,7 @@ body {
 }
 /* Navigation Bar start*/
 nav {
+    margin-top: -30px;
     width: 100%;
 }
 nav .navbar-brand {
@@ -20,7 +21,7 @@ nav ul {
     list-style: none;
 }
 nav ul li{
-    padding: 25px 25px;
+    padding: 20px 25px;
     font-size: 1.2rem;
 }
 .collapse .navbar-nav .nav-item a {
@@ -70,31 +71,31 @@ nav ul li{
     top: 20%;
 }
 .carousel-inner .carousel-item .carousel-caption h3 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: #fff;
     margin-bottom: 0;
 }
 .carousel-inner .carousel-item .carousel-caption h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bolder;
     color: #fff;
     margin-top: -10px;
 }
 .carousel-inner .carousel-item .carousel-caption .underline {
     background: #f26b31;
-    height: 10px;
+    height: 8px;
     width: 150px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 .carousel-inner .carousel-item .carousel-caption p {
     color: #fff;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: 1.2em;
 }
 .carousel-inner .carousel-item .carousel-caption .btn {
     background: #f26b31;
-    padding: 1.2rem 1.5rem;
-    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -103,6 +104,7 @@ nav ul li{
     border: none;
     color: #fff;
     letter-spacing: 4px;
+    margin-bottom: 3rem;
 }
 /* Inner text content ends */
 
