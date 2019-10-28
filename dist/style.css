@@ -351,7 +351,7 @@ nav ul li{
 .fn40 .services-content p {
     font-size: 1.4rem;
     color: rgb(48, 44, 44);
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 .fn40 .services-content a {
     padding: 1rem;
@@ -538,6 +538,15 @@ nav ul li{
     background: #003674;
     color: #fff;
     transition: .6s;  
+}
+.btn-blog {
+    margin: 0 auto;
+    background: #003674;
+    padding: 1;
+    font-size: 1.1rem;
+}
+.btn-blog:hover {
+    background: #f26b31;
 }
 /* blog post ends */
 
