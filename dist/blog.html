@@ -292,12 +292,15 @@
                                         <div class="footer-link">
                                             <h4><span>|</span>&nbsp;&nbsp;GET A FREE QUOTE</h4>
                                         </div>
-                                        <form name="email-form" method="POST" data-netlify="true" class="form">
-                                            <input type="text" class="form-control mb-4 p-3" placeholder="Name">
-                                            <input type="text" class="form-control mb-4 p-3" placeholder="Subject">
-                                            <input type="text" class="form-control mb-4 p-3" placeholder="Message">
-                                            <input type="submit" class="form-control p-3 fn32">
-                                        </form>
+                                        <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form">
+                                                <!-- <form name="email-form" onsubmit="return formValidation();" class="form"> -->
+                                                        <input type="text" class="form-control mb-4 p-3" id="name" placeholder="Name">
+                                                        <input type="text" class="form-control mb-4 p-3" id="email" placeholder="Email">
+                                                        <input type="text" class="form-control mb-4 p-3" id="phone" placeholder="Phone">
+                                                        <input type="text" class="form-control mb-4 p-3" id="message" placeholder="Message">
+                                                        <input type="submit" class="form-control p-3 fn32">
+                                                        <div id="error-message"></div>
+                                                </form>
                                     </div>
                                 </div>
                             </div>
@@ -311,9 +314,9 @@
                 </section>
                 <!-- footer note ends  -->
 
-
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
 </body>
 </html>
