@@ -26,7 +26,8 @@
     <!-- Navigation Bar Start Here -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
         <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
               
@@ -39,7 +40,8 @@
                     <a class="nav-link" href="about-us.html">ABOUT US</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     PAGES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="gallery.html">GALLERY</a>
@@ -313,9 +315,9 @@
                             <span><a href="https://instagram.com/ubong.udofia3"><i class="fab fa-linkedin fa-2x"></i></a></span>
                             <span><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus fa-2x"></i></a></span>
                         </div>
-                        <img src="images/team-1.JPG" alt="">
+                        <img src="images/team-1.JPG" alt="" >
                         <div class="name">
-                            <h5>Ubong UDOFIA</h5>
+                            <h5>Emeh Rasman</h5>
                             <p>Field Supervisor</p>
                         </div>
                     </div>
@@ -588,12 +590,12 @@
                             <div class="footer-link">
                                 <h4><span>|</span>&nbsp;&nbsp;GET A FREE QUOTE</h4>
                             </div>
-                            <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form">
-                            <!-- <form name="email-form" onsubmit="return formValidation();" class="form"> -->
-                                    <input type="text" class="form-control mb-4 p-3" id="name" placeholder="Name">
-                                    <input type="text" class="form-control mb-4 p-3" id="email" placeholder="Email">
-                                    <input type="text" class="form-control mb-4 p-3" id="phone" placeholder="Phone">
-                                    <input type="text" class="form-control mb-4 p-3" id="message" placeholder="Message">
+                            <!-- <form name="email-form" class="form"> -->
+                            <form name="email-form" onsubmit="return formValidation()" data-netlify="true" class="form">
+                                    <input type="text" class="form-control mb-4 p-3" required  id="name" placeholder="Name">
+                                    <input type="text" class="form-control mb-4 p-3" required id="email" placeholder="Email">
+                                    <input type="text" class="form-control mb-4 p-3" required id="phone" placeholder="Phone">
+                                    <input type="text" class="form-control mb-4 p-3" required id="message" placeholder="Message">
                                     <input type="submit" class="form-control p-3 fn32">
                                     <div id="error-message"></div>
                             </form>

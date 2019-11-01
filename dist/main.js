@@ -1,7 +1,4 @@
 
-
-
-
 function formValidation() {
 
     var name = document.getElementById('name').value;
@@ -24,7 +21,7 @@ function formValidation() {
 
     if(name.length < 8 ) {
         text = "Please Name should contain First and Last Name";
-       error_message.innerHTML = text;
+       error_message.innerText = text;
        return false;
     }
 
@@ -47,6 +44,7 @@ function formValidation() {
         text = "Message should not exceed 200 character";
        error_message.innerHTML = text;
        return false;
+
     }
     if(message.length === ' ' || message.length > 200
      || name.length < 8 || email.length === ' ' || isNaN(phone.length) || phone.length <= 11 ) {
@@ -54,6 +52,8 @@ function formValidation() {
        error_message.innerHTML = text;
        return true;
     }
+
     
 
 }
+

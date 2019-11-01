@@ -69,14 +69,15 @@
         <!-- contact us form start here  -->
         <div class="container">
             <div class="row">
-                <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form-header">
+                <!-- <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form-header"> -->
+                    <form name="email-form" onsubmit="return formValidation();" data-netlify="true" class="form">
                     <div class="input-group input-group-lg mb-3 mt-5">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     <i class="fas fa-user"></i>
                                 </span>
                             </div>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" name="full_name">
+                            <input type="text" class="form-control" required id="name" placeholder="Your Name" name="full_name">
                     </div>
                     <div class="input-group input-group-lg mb-3">
                         <div class="input-group-prepend">
@@ -84,7 +85,7 @@
                                 <i class="fas fa-phone"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
+                        <input type="text" class="form-control" required id="phone" placeholder="Phone" name="phone">
                     </div>
                     <div class="input-group input-group-lg mb-3">
                         <div class="input-group-prepend">
@@ -92,7 +93,7 @@
                                 <i class="fas fa-envelope-open"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control" id="email" placeholder="Email address" name="email">
+                        <input type="text" class="form-control" required id="email" placeholder="Email address" name="email">
                     </div>
                     <div class="input-group input-group-lg mb-3">
                             <div class="input-group-prepend">
@@ -100,7 +101,7 @@
                                     <i class="fas fa-envelope-open"></i>
                                 </span>
                             </div>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                        <input type="text" class="form-control" required id="subject" placeholder="Subject" name="subject">
                     </div>
                 
                     <div class="input-group input-group-lg mb-3 form-children">
@@ -109,7 +110,7 @@
                                 <i class="fas fa-pencil-alt"></i>
                             </span>
                         </div>
-                        <textarea class="form-control" placeholder="Message" id="message" rows="5" name="message"></textarea>
+                        <textarea class="form-control" requiredplaceholder="Message" id="message" rows="5" name="message"></textarea>
                     </div>
                 
                     <input type="submit" value="SUBMIT HERE" class="btn btn-primary btn-block btn-lg">
@@ -196,12 +197,12 @@
                                         <div class="footer-link">
                                             <h4><span>|</span>&nbsp;&nbsp;GET A FREE QUOTE</h4>
                                         </div>
-                                        <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form">
-                                                <!-- <form name="email-form" onsubmit="return formValidation();" class="form"> -->
-                                                        <input type="text" class="form-control mb-4 p-3" id="name" placeholder="Name">
-                                                        <input type="text" class="form-control mb-4 p-3" id="email" placeholder="Email">
-                                                        <input type="text" class="form-control mb-4 p-3" id="phone" placeholder="Phone">
-                                                        <input type="text" class="form-control mb-4 p-3" id="message" placeholder="Message">
+                                        <!-- <form name="email-form" method="POST" onsubmit="return formValidation();" data-netlify="true" class="form"> -->
+                                                <form name="email-form" onsubmit="return formValidation();" data-netlify="true" class="form">
+                                                        <input type="text" class="form-control mb-4 p-3" required id="name" placeholder="Name">
+                                                        <input type="text" class="form-control mb-4 p-3" required id="email" placeholder="Email">
+                                                        <input type="text" class="form-control mb-4 p-3" required id="phone" placeholder="Phone">
+                                                        <input type="text" class="form-control mb-4 p-3" required id="message" placeholder="Message">
                                                         <input type="submit" class="form-control p-3 fn32">
                                                         <div id="error-message"></div>
                                                 </form>
